@@ -1,0 +1,59 @@
+
+#image-container6 {
+    background-image: url('./img/about-contact/pexels-pixabay-247676.jpg');
+    background-size: cover;
+}
+
+#image-container7 {
+    background-image: url('./img/about-contact/pexels-francesco-ungaro-96381.jpg');
+    background-size: cover;
+}
+
+#image-container8 {
+    background-image: url('./img/about-contact/pexels-anni-roenkae-2156883.jpg');
+    background-size: cover;
+}
+
+#image-container9 {
+    background-image: url('./img/about-contact/pexels-asim-alnamat-32997.jpg');
+    background-size: cover;
+}
+
+#image-container10 {
+    background-image: url('./img/about-contact/pexels-miguel-á-padriñán-3785935.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+#right-about {
+    width: 40%;
+    border-right: 4px solid #d24d84;
+}
+
+#about p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contact-me p {
+    margin: 10px auto;
+}
+
+#contact-me a {
+    color: #d24d84;
+}
+
+#name a, #contact a {
+    color: black;
+}
+
+@media only screen and (max-width: 715px) {
+    #left {
+        display: none;
+    }
+
+    #right-about {
+        width: 100%;
+    }
+}

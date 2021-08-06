@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+/*Main Setup*/
+
+#main {
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main h1 {
+    margin: 10% auto;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+#main h2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 2rem;
+}
+
+#main p {
+    font-size: 1.5rem;
+}
+
+#projects p{
+    margin: 2% auto;
+}
+
+#right {
+    width: 40%;
+    border-right: 4px solid #bdc6cf;
+}
+
+#left {
+    width: 60%;
+}
+
+.flex-boxes {
+    display: flex;
+    height: 40%;
+}
+
+.flex-box-bottom {
+    height: 20%;
+}
+
+.image-container {
+    width: 50%;
+}
+
+#image-container5 {
+    height: 100%;
+}
+
+#image-container1 {
+    background-image: url('./img/main-page/pexels-olga-lioncat-7245524.jpg');
+    background-size: cover;
+}
+
+#image-container2 {
+    background-image: url('./img/main-page/pexels-olga-lioncat-7245511.jpg');
+    background-size: cover;
+}
+
+#image-container3 {
+    background-image: url('./img/main-page/pexels-olga-lioncat-7245527.jpg');
+    background-size: cover;
+}
+
+#image-container4 {
+    background-image: url('./img/main-page/pexels-olga-lioncat-7245518.jpg');
+    background-size: cover;
+}
+
+#image-container5 {
+    background-image: url('./img/main-page/pexels-laura-tancredi-7078417.jpg');
+    background-size: cover;
+}
+
+
+#contact img {
+    width: 5%;
+}
+
+a {
+    color: #255a92;
+}
+
+/*Logo Circle*/
+
+#logo-circle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#circle-container {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.circle-small-container {
+    position: absolute;
+	width: 40px;
+	height: 40px;
+	transition: transform 0.7s linear;
+    transform: rotate(0deg);
+	top: -7px;   /* -child size/2 */
+	left: 50px;   /* parent size/2 - child size/2 */
+}
+
+.circle-small-container img {
+    width: 20px;
+}
+
+.main-cont {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.main-cont:hover{
+    animation-name: moveAround;
+    animation-duration: 5s;
+}
+
+
+@keyframes moveAround {
+    0% {
+        transform: translate(20px 30px);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    #left {
+        display: none;
+    }
+
+    #right {
+        width: 100%;
+    }
+}
