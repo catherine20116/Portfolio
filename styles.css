@@ -33,6 +33,10 @@
     border-right: 4px solid #bdc6cf;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 #left {
     width: 60%;
 }
